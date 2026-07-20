@@ -1,0 +1,4660 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ca3864a6-8c7e-4391-8ef6-226319fe5838",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-20T16:24:50.9717689+05:30",
+    "tools": [],
+    "authors": [],
+    "component": {
+      "type": "application",
+      "author": "",
+      "name": "PLCDesigner",
+      "version": "4.1.0.0",
+      "swid": {
+        "tagId": "",
+        "name": "",
+        "version": "",
+        "text": {
+          "contentType": "",
+          "encoding": "base64",
+          "content": ""
+        }
+      }
+    },
+    "manufacture": {
+      "name": "",
+      "url": [],
+      "contact": []
+    },
+    "supplier": {
+      "name": "",
+      "url": [],
+      "contact": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "Application",
+      "type": "plc program",
+      "publisher": "Lenze Automation GmbH",
+      "group": "",
+      "name": "Testcases_VisuPLC_V23",
+      "version": "2.3.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIecTask, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIecTask",
+      "version": "3.1.4.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpApp, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpApp",
+      "version": "3.1.3.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTypes2 Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTypes2 Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpEventMgr, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpEventMgr",
+      "version": "3.1.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpEventMgr Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpEventMgr Interfaces",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpErrors2 Interfaces, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpErrors2 Interfaces",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpEventMgr Implementation, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpEventMgr Implementation",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpSettings, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpSettings",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Standard, 3.5.18.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Standard",
+      "version": "3.0.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpSchedule, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpSchedule",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTime, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTime",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTimeCore, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTimeCore",
+      "version": "3.4.1.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTimeRtc, 3.5.20.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTimeRtc",
+      "version": "3.4.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IecVarAccess, 4.6.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IecVarAccess",
+      "version": "3.3.0.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Component Manager, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Component Manager",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SymbolicVarsBase, 4.6.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SymbolicVarsBase",
+      "version": "3.3.0.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysMem, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysMem",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Base Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Base Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IecVarAccess3 Interfaces, 4.6.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IecVarAccess3 Interfaces",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Collections Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Collections Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "StringUtils, 3.5.20.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "StringUtils",
+      "version": "3.4.4.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIecVarAccess, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIecVarAccess",
+      "version": "3.1.3.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIecVarAccess Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIecVarAccess Interfaces",
+      "version": "3.5.15.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIecVarAccess Implementation, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIecVarAccess Implementation",
+      "version": "3.5.15.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysCpuHandling, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysCpuHandling",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpOPCUAStack Interfaces, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpOPCUAStack Interfaces",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpUserMgr, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpUserMgr",
+      "version": "3.5.16.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpUserMgr Interfaces, 3.5.21.10 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpUserMgr Interfaces",
+      "version": "3.5.16.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpUserMgr Implementation, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpUserMgr Implementation",
+      "version": "3.5.16.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpOPCUAStack, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpOPCUAStack",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "NotImplementedByDevice, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "NotImplementedByDevice",
+      "version": "3.5.15.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpLog, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpLog",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpOPCUAServer Interfaces, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpOPCUAServer Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysSocket Interfaces, 3.5.19.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysSocket Interfaces",
+      "version": "3.5.15.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IecVarAccessOpcUaMetaData Interfaces, 4.5.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IecVarAccessOpcUaMetaData Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "AlarmManagerToOpcUaConnector, 4.6.0.0 (CODESYS)",
+      "type": "library",
+      "publisher": "CODESYS",
+      "group": "",
+      "name": "AlarmManagerToOpcUaConnector",
+      "version": "4.6.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "AlarmManager, 4.8.0.0 (Intern)",
+      "type": "library",
+      "publisher": "CODESYS",
+      "group": "",
+      "name": "AlarmManagerToOpcUaConnector",
+      "version": "4.6.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpVisuHandler, 3.5.19.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpVisuHandler",
+      "version": "3.2.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpDynamicText, 3.5.20.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpDynamicText",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysProcess, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysProcess",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysProcess Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysProcess Interfaces",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysProcess Implementation, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysProcess Implementation",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysSem, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysSem",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysSem Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysSem Interfaces",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysSem Implementation, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysSem Implementation",
+      "version": "3.5.16.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTask, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTask",
+      "version": "3.0.2.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Types Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Types Extern",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Storage, 3.5.21.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Storage",
+      "version": "3.4.4.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA FB Factory, 3.5.19.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA FB Factory",
+      "version": "3.4.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Memory Block Manager Extern, 3.5.18.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Memory Block Manager Extern",
+      "version": "3.2.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Callback Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Callback Extern",
+      "version": "3.2.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Ressource Manager Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Ressource Manager Extern",
+      "version": "3.2.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "3S Storage, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "3S Storage",
+      "version": "3.4.4.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Collections, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Collections",
+      "version": "3.1.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysFile, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysFile",
+      "version": "3.0.2.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpBinTagUtilIec, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpBinTagUtilIec",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpSrv, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpSrv",
+      "version": "3.3.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CDSV3ProtocolUtils, 4.1.0.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "CDSV3ProtocolUtils",
+      "version": "3.5.11.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Datasources Interfaces, 4.3.0.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "Datasources Interfaces",
+      "version": "3.5.12.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Alarm Manager Interfaces, 4.5.0.0 (Intern)",
+      "type": "library",
+      "publisher": "Intern",
+      "group": "",
+      "name": "Alarm Manager Interfaces",
+      "version": "3.5.15.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Data Server Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Data Server Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Monitoring Data Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Monitoring Data Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Alarm Manager Internal Interfaces, 4.8.0.0 (Intern)",
+      "type": "library",
+      "publisher": "Intern",
+      "group": "",
+      "name": "Alarm Manager Internal Interfaces",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Element Collections, 4.0.0.0 (CODESYS)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "Element Collections",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTime, 3.5.9.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTime",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "VisuShared, 4.8.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "VisuShared",
+      "version": "4.8.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Util, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Util",
+      "version": "3.3.0.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "3SLicense, 3.5.20.0 (CODESYS)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "3SLicense",
+      "version": "3.4.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpCodeMeter, 3.5.18.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpCodeMeter",
+      "version": "3.5.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpOPCUAProviderAlarmConfiguration Interfaces, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpOPCUAProviderAlarmConfiguration Interfaces",
+      "version": "3.5.21.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Standard64, 3.5.20.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Standard64",
+      "version": "3.3.0.10",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "BASIC, 3.33 (OSCAT)",
+      "type": "library",
+      "publisher": "OSCAT",
+      "group": "",
+      "name": "BASIC",
+      "version": "3.33",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Standard, 3.5.0.40 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Standard",
+      "version": "3.0.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Real Time Clock Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Real Time Clock Extern",
+      "version": "3.2.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Async Manager Extern, 3.5.21.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Async Manager Extern",
+      "version": "3.2.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "File Access, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "File Access",
+      "version": "3.4.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA File, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA File",
+      "version": "3.2.0.3",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Tick Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Tick Extern",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA TickUtil Extern, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA TickUtil Extern",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Behaviour Model, 3.5.19.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Behaviour Model",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "NamespaceTest, 0.0.4 (MM)",
+      "type": "library",
+      "publisher": "MM",
+      "group": "",
+      "name": "NamespaceTest",
+      "version": "0.0.4",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IOCP_OPCUAClient, 3.32.0.24 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IOCP_OPCUAClient",
+      "version": "3.26.0.36",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SOCP_OPCUAClient, 3.32.0.1 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SOCP_OPCUAClient",
+      "version": "3.26.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "LibSSV, 0.0.4.4 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "LibSSV",
+      "version": "0.0.4.4",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SM3_Basic, 3.5.3.110 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "SM3_Basic",
+      "version": "3.3.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoStandard, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoStandard",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIoMgr Implementation, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIoMgr Implementation",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpIoMgr Interfaces, 3.5.19.30 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpIoMgr Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTarget, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTarget",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpErrors Interfaces, 3.5.4.20 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpErrors Interfaces",
+      "version": "3.5.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTypes Interfaces, 3.5.2.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTypes Interfaces",
+      "version": "3.5.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDriver Interfaces, 3.5.2.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDriver Interfaces",
+      "version": "3.5.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "FloatingPointUtils, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "FloatingPointUtils",
+      "version": "3.5.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "AC_ModuleBase, 4.2.0.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "AC_ModuleBase",
+      "version": "3.5.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "AC_Persistence, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "AC_Persistence",
+      "version": "3.5.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "MemoryUtils, 3.5.18.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "MemoryUtils",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Memory, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Memory",
+      "version": "3.2.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_PLCLoggingAccess, 3.3.0.0 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_PLCLoggingAccess",
+      "version": "3.0.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysTypes, 3.1.2.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysTypes",
+      "version": "3.1.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IOSP_OpcUaServer, 3.32.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IOSP_OpcUaServer",
+      "version": "3.30.0.3",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_UBUP_BasicUtilities, 3.33.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_UBUP_BasicUtilities",
+      "version": "3.26.0.209",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Mathematics, 3.5.19.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Mathematics",
+      "version": "3.2.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpAsyncMgr, 3.5.21.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpAsyncMgr",
+      "version": "3.3.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Analyzation, 4.1.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Analyzation",
+      "version": "3.5.11.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IE1P_ApplicationErrorsTypes, 3.33.0.20 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IE1P_ApplicationErrorsTypes",
+      "version": "3.31.0.12",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Breakpoint Logging Functions, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "Breakpoint Logging Functions",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_Util, 3.32.0.5 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_Util",
+      "version": "3.0.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_PLCLoggingAccess, 3.32.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_PLCLoggingAccess",
+      "version": "3.0.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SSYP_CmpLenzeIPCSystem, 3.32.0.4 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SSYP_CmpLenzeIPCSystem",
+      "version": "3.12.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IODrvEtherCAT, 3.32.0.11 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IODrvEtherCAT",
+      "version": "3.0.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Device Diagnosis, 3.5.21.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Device Diagnosis",
+      "version": "3.5.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CommFB, 3.5.21.0 (CODESYS)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "CommFB",
+      "version": "3.5.12.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDriver Profibus2 Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDriver Profibus2 Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IMHP_ModuleHandler, 3.32.0.8 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IMHP_ModuleHandler",
+      "version": "3.22.0.34",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SMHP_ModuleHandler, 3.32.0.1 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SMHP_ModuleHandler",
+      "version": "3.22.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SEMP_ErrorManagement, 3.32.0.3 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SEMP_ErrorManagement",
+      "version": "3.15.0.11",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDrvBase, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDrvBase",
+      "version": "3.1.3.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDriver Parameter Interfaces, 3.5.2.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDriver Parameter Interfaces",
+      "version": "3.5.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDriver2 Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDriver2 Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IC1P_ComponentDirectory, 3.32.0.3 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IC1P_ComponentDirectory",
+      "version": "3.30.0.8",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IPAP_ParameterManagerAccess, 3.32.0.7 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IPAP_ParameterManagerAccess",
+      "version": "3.15.0.7",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "VisuDialogs, 4.8.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "VisuDialogs",
+      "version": "3.3.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "SysDir, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "SysDir",
+      "version": "3.0.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IE1P_ApplicationErrors, 3.32.0.3 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IE1P_ApplicationErrors",
+      "version": "3.10.0.14",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IE1P_ApplicationErrorsImplementation, 3.33.0.5 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IE1P_ApplicationErrorsImplementation",
+      "version": "3.31.0.6",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_MC2P_MotionControlCam, 3.33.0.6 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_MC2P_MotionControlCam",
+      "version": "3.10.0.56",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_MC1P_MotionControlBasic, 3.33.0.34 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_MC1P_MotionControlBasic",
+      "version": "3.10.0.72",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_DCO_DriveCommunication, 3.32.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_DCO_DriveCommunication",
+      "version": "3.1.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA CiA 405, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA CiA 405",
+      "version": "3.3.1.30",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA CANopen Manager, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA CANopen Manager",
+      "version": "3.3.1.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA CanOpen Stack, 3.5.17.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA CanOpen Stack",
+      "version": "3.2.0.3",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IOM_IOModules, 3.32.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IOM_IOModules",
+      "version": "3.1.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDriver Parameter2 Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "IoDriver Parameter2 Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_USPP_SignalProcessing, 3.33.0.1 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_USPP_SignalProcessing",
+      "version": "3.10.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_UMTP_Mathematics, 3.33.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_UMTP_Mathematics",
+      "version": "3.19.0.68",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_EtcSlaveConfig, 3.32.0.8 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_EtcSlaveConfig",
+      "version": "3.10.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SUDP_SlaveUpDownloadManager, 3.32.0.7 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SUDP_SlaveUpDownloadManager",
+      "version": "3.12.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_IF1P_FunctionsConnections, 3.33.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_IF1P_FunctionsConnections",
+      "version": "3.32.0.32",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SPMI_PlcParameterManager, 3.32.0.3 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SPMI_PlcParameterManager",
+      "version": "3.15.0.28",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpChecksum, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpChecksum",
+      "version": "3.3.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TB2P_TechModulesBasic, 3.33.0.12 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TB2P_TechModulesBasic",
+      "version": "3.19.0.53",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TF2P_TechModulesFollowingPositioning, 3.33.0.2 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TF2P_TechModulesFollowingPositioning",
+      "version": "3.19.0.69",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TS2P_TechModulesSynchronizingCamming, 3.33.0.3 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TS2P_TechModulesSynchronizingCamming",
+      "version": "3.19.0.103",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TW2P_TechModulesWindingTraversing, 3.33.0.6 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TW2P_TechModulesWindingTraversing",
+      "version": "3.19.0.22",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_CT1P_ControlToolbox, 3.33.0.4 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_CT1P_ControlToolbox",
+      "version": "3.10.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TB1P_TechnologyBasics, 3.32.0.1 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TB1P_TechnologyBasics",
+      "version": "3.10.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_TP2P_TechModulesProcessFunctions, 3.32.0.7 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_TP2P_TechModulesProcessFunctions",
+      "version": "3.18.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_ILMP_LicenseManager, 3.32.0.1 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_ILMP_LicenseManager",
+      "version": "3.26.0.8",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_EtcSlaveConfig_i900, 3.32.0.4 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_EtcSlaveConfig_i900",
+      "version": "3.14.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_EtcSlaveConfig_i700, 3.32.0.16 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_EtcSlaveConfig_i700",
+      "version": "3.10.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_EtcSlaveConfig_i750, 3.32.0.4 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_EtcSlaveConfig_i750",
+      "version": "3.24.0.2",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_SlaveConfig_i500, 3.32.0.6 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_SlaveConfig_i500",
+      "version": "3.13.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "3S CANopenStack, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "3S CANopenStack",
+      "version": "0.34.4.20",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Can Low Level Extern, 3.5.21.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Can Low Level Extern",
+      "version": "3.2.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CAA Can Low Level Imp Extern, 3.5.21.0 (CAA Technical Workgroup)",
+      "type": "library",
+      "publisher": "CAA Technical Workgroup",
+      "group": "",
+      "name": "CAA Can Low Level Imp Extern",
+      "version": "3.2.0.1",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CANbusDevice, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "CANbusDevice",
+      "version": "3.5.10.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CANbus, 3.5.7.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "CANbus",
+      "version": "3.4.1.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "IoDrvUtility, 3.5.21.0 (CODESYS)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "IoDrvUtility",
+      "version": "3.5.11.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Redundancy, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+      "type": "library",
+      "publisher": "3S - Smart Software Solutions GmbH",
+      "group": "",
+      "name": "Redundancy",
+      "version": "3.5.14.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "Redundancy Interfaces, 3.5.17.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "Redundancy Interfaces",
+      "version": "3.5.17.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_CanSlaveConfig, 3.22.0.0 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_CanSlaveConfig",
+      "version": "3.12.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "L_CanMiniDriver, 3.22.0.0 (Lenze)",
+      "type": "library",
+      "publisher": "Lenze",
+      "group": "",
+      "name": "L_CanMiniDriver",
+      "version": "3.0.0.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "CmpErrors, 3.3.1.40 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "CmpErrors",
+      "version": "3.1.2.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    },
+    {
+      "bom-ref": "VisuSymbols, 4.5.0.0 (System)",
+      "type": "library",
+      "publisher": "System",
+      "group": "",
+      "name": "VisuSymbols",
+      "version": "3.5.10.0",
+      "hashes": [],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "text": {
+              "contentType": "",
+              "encoding": "base64",
+              "content": ""
+            },
+            "url": ""
+          }
+        }
+      ],
+      "purl": "",
+      "pedigree": {
+        "ancestors": [],
+        "commits": []
+      },
+      "author": ""
+    }
+  ],
+  "dependencies": []
+}

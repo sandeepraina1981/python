@@ -1,0 +1,31 @@
+name: nupano
+services:
+
+  runtime:
+    user: root #required for windows to access docker.sock
+    restart: always
+    image: ghcr.io/nupano/runtime:main
+    environment:
+      - logging.level.com.nupano=DEBUG #INFO or DEBUG
+      - nupano.description.manufacturer=SDC
+      - nupano.description.model-name=Sai Radhe
+      - nupano.description.serial-number= #default: UUID of Runtime
+      - nupano.domain=lns-1246.nupano-dev.com
+      #- nupano.machine.pairing.proxy.port=
+      #- nupano.machine.pairing.proxy.username=
+      #- nupano.machine.pairing.proxy.password=
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock   # access to docker socket
+      - nupano_data:/nupano                         # persist nupano runtime data
+    networks:
+      - nupano_network
+    ports:
+      - 61100:61100/tcp
+
+networks:
+  nupano_network:
+    name: nupano
+    driver: bridge
+
+volumes:
+  nupano_data:

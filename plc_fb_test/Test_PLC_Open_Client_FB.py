@@ -12,36 +12,33 @@
 #-----------------------------------------------------------------------------------------------------------------------
 # Test Script docstring (must be first definition in file)
 #-----------------------------------------------------------------------------------------------------------------------
-"""This is test runner file for OPC UA LLM Test
+"""This is test runner file for OPC UA PLC Open Client FB Test
 """
 #-----------------------------------------------------------------------------------------------------------------------
 # Test Script imports (must be defined before code)
 #-----------------------------------------------------------------------------------------------------------------------
-import sys
-from pytef.namespace.testcase import FwTestCase, RevisionVersion, FwTestObject, Version, TestBench
-from tests.testlib.utils.CommonLib import isEclipseRunningAsAdmin, clsLogger
-from tests.testlib.seleniumLib.SeleniumLib import SeleniumLib
-from tests.opc_ua.opc_ua_llm_test.lib.Lib_OpcUa_LLM import Lib_OpcUa_LLM
-from tests.testlib.utils.InterpreterValidation import ValidateInterpreter
-from tests.opc_ua.opc_ua_llm_test.utils.excelReader import ConfigExlParser
-from tests.opc_ua.opc_ua_llm_test.utils import constants_llm as constants
+from pytef.namespace.testcase import FwTestCase, FwTestObject, Version, TestBench, RevisionVersion
+from tests.testlib.utils.CommonLib import clsLogger
+from tests.opc_ua.plc_fb_test.utils.excelReader import ConfigExlParser as ConfigOpenClientFB
+from tests.opc_ua.plc_fb_test.utils import constants_plc_fb as constants
+from tests.opc_ua.plc_fb_test.lib.Lib_PLC_Open_Client_FB import Lib_PLC_Open_Client_FB
 
 #-----------------------------------------------------------------------------------------------------------------------
 # PyTeF file header end
 #-----------------------------------------------------------------------------------------------------------------------
-class Test_OpcUa_LLM(FwTestCase):
+class Test_PLC_Open_Client_FB(FwTestCase):
     """
-    class for OPC UA LLM Test Runner
+    class for OPC UA PLC Open Client FB Test Runner
     """
-    prefixCls = 'Test_OpcUa_LLM'
+    prefixCls = 'Test_PLC_Open_Client_FB'
 
     #-------------------------------------------------------------------------------------------------------------------
     # SVN keyword section
     #-------------------------------------------------------------------------------------------------------------------
-    TEST_URL = "$HeadURL: http://repository.lenze.com/ssv/TestRepository/branches/sdc/tests/common/opc_ua/Test_OpcUa.py $"[10:-2]  # noqa: E501
-    TEST_REV = "$Revision: 9122 $"[11:-2]
-    TEST_DATE = "$LastChangedDate: 2022-05-19 18:21:47 +0530 (Thu, 19 May 2022) $"[18:-2]
-    TEST_AUTHOR = "$LastChangedBy: kolten $"[16:-2]
+    TEST_URL = "$HeadURL: $"[10:-2]  # noqa: E501
+    TEST_REV = "$Revision: $"[11:-2]
+    TEST_DATE = "$LastChangedDate: $"[18:-2]
+    TEST_AUTHOR = "$LastChangedBy: raina $"[16:-2]
     TEST_VERSION = RevisionVersion(1, 0, 0, TEST_REV)
 
     #-------------------------------------------------------------------------------------------------------------------
@@ -57,7 +54,7 @@ class Test_OpcUa_LLM(FwTestCase):
     TEST_OBJ_DEVEL = FwTestObject.NOT_DEFINED
 
     # : Specify the test keys for the testcases in the class here.
-    TEST_KEYS = ["opc.test"]
+    TEST_KEYS = ["opcua.plcopenclientfb"]
 
     # : TestReview-Instanz, created by a test manager after a review.
     TESTMGR_REVIEW = None
@@ -91,13 +88,14 @@ class Test_OpcUa_LLM(FwTestCase):
         #       The newest Templates you can import are here:
         #       <pytef>/templates/eclipse/pydev/templates
 
-        initArgs = ()
-        self.libOpcUaLLM = self.resource.testLib(relModName = r"lib\Lib_OpcUa_LLM",
-                                                 libName = "Lib_OpcUa_LLM",
-                                                 relToFile = __file__,
-                                                 initArgs = initArgs)
+        initArgs = {"fbTestModeList": [constants.FBMode.FIXED_NODE],
+                    "fbTestImpementation": constants.FBImplementation.VARIABLE_RW_CONNECT}
 
-    #-------------------------------------------------------------------------------------------------------------------
+        self.libPLCOpenClientFB = self.resource.testLib(relModName = r"lib\Lib_PLC_Open_Client_FB",
+                                                        libName = "Lib_PLC_Open_Client_FB",
+                                                        relToFile = __file__,
+                                                        initKwargs= initArgs)
+
     @classmethod
     def autoCreateTestCases(cls) -> None:
         """Example to create test cases by parameters - here 900 test cases!!
@@ -107,7 +105,7 @@ class Test_OpcUa_LLM(FwTestCase):
 
         Actual it's not possible to hand
         """
-        Lib_OpcUa_LLM.createTests(cls)
+        Lib_PLC_Open_Client_FB.createTests(cls)
 
     #-------------------------------------------------------------------------------------------------------------------
     def autoTestFunc(self) -> None:
@@ -131,7 +129,7 @@ class Test_OpcUa_LLM(FwTestCase):
 
         self.logger.info("[%s] Description of this class:", type(self).prefixCls)
         self.logger.info("[%s] %s", type(self).prefixCls, self.testClsDoc)
-        self.libOpcUaLLM.setUpClass()
+        self.libPLCOpenClientFB.setUpClass()
 
     #-------------------------------------------------------------------------------------------------------------------
     def tearDownClass(self) -> None:
@@ -139,191 +137,87 @@ class Test_OpcUa_LLM(FwTestCase):
         tearDownClass for Opc Ua test runner
         """
         self.logger.info("[%s] Post processing the test class ...", type(self).prefixCls)
-        self.libOpcUaLLM.tearDownClass()
+        self.libPLCOpenClientFB.tearDownClass()
 
     #-------------------------------------------------------------------------------------------------------------------
-    def setUp(self) -> None:
+    def tc_Group1(self) -> None:
         """
-        setUp for Opc Ua test runner: calls setUpClass from Lib_OpcUa_LLM
+        Executes Group 01 test cases for internal server variable data operations.
+
+        This group includes:
+        - TC01: Verifies reading of variable data from the internal server.
+        - TC02: Verifies writing of variable data to the internal server.
+        - TC03: Verifies simultaneous read/write operations on variable data for the internal server.
+
+        Returns:
+            None
         """
 
-        self.logger.info("[%s] Preparing a single testcase ...", type(self).prefixCls)
-        self.libOpcUaLLM.setUp()
+        self.libPLCOpenClientFB.executeGroup1()
 
     #-------------------------------------------------------------------------------------------------------------------
-    def tearDown(self) -> None:
+    def tc_Group2(self) -> None:
         """
-        tearDown for Opc Ua test runner: calls setUpClass from Lib_OpcUa_LLM
+        Executes Group 02 test cases for c550 external server variable data operations.
+
+        This group includes:
+        - TC04: Verifies reading of variable data from the c550 external server.
+        - TC05: Verifies writing of variable data to the c550 external server.
+        - TC06: Verifies simultaneous read/write operations on variable data for the c550 external server.
+
+        Returns:
+            None
         """
 
-        self.logger.info("[%s] Post processing a single testcase ...", type(self).prefixCls)
-        self.libOpcUaLLM.tearDown()
+        self.libPLCOpenClientFB.executeGroup2()
 
     #-------------------------------------------------------------------------------------------------------------------
-    def abortHandler(self) -> None:
+    def tc_Group3(self) -> None:
         """
-        abortHandler for Opc Ua test runner
+        Executes Group 03 test cases for c520 external server variable data operations.
+
+        This group includes:
+        - TC07: Verifies reading of variable data from the c520 external server.
+        - TC08: Verifies writing of variable data to the c520 external server.
+        - TC09: Verifies simultaneous read/write operations on variable data for the c520 external server.
+
+        Returns:
+            None
         """
 
-        self.logger.info("[%s] Executing the abort handler of the class ...", type(self).prefixCls)
+        self.libPLCOpenClientFB.executeGroup3()
 
     #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp1_TC1(self) -> None:
+    def tc_Group4(self) -> None:
         """
-        Download the project in the controller using PLC Designer tool
+        Executes Group 04 test cases for 3rd-party controller external server operations.
 
+        This group includes:
+        - TC10: Verifies reading of variable data from a 3rd-party controller external server.
+        - TC11: Verifies writing of variable data to a 3rd-party controller external server.
+        - TC12: Verifies simultaneous read/write operations on variable data for a 3rd-party controller external server.
+
+        Returns:
+            None
         """
-        self.libOpcUaLLM.grp_01_tc_01()
+
+        self.libPLCOpenClientFB.executeGroup4()
 
     #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp2_TC1(self) -> None:
+    def tc_Group5(self) -> None:
         """
-        Verify External Client session connections with "Static AC Configuration" mode and AC OPC UA = 0 for different\
-         Max Server Settings (Parameter-0x2472 (103))
+        Executes Group 05 test cases for multiple external server variable data operations.
 
-            .. image:: images/sequenceDiagrams/1_1.png
+        This group includes:
+        - TC13: Verifies reading of variable data from multiple external servers.
+        - TC14: Verifies writing of variable data to multiple external servers.
+        - TC15: Verifies simultaneous read/write operations on variable data for multiple external servers.
 
+        Returns:
+            None
         """
-        self.libOpcUaLLM.grp_02_tc_01()
 
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp2_TC2(self) -> None:
-        """
-        Verify External Client session connections with "Static AC Configuration" mode and AC OPC UA = 100 for \
-         different Max Server Settings (Parameter-0x2472 (103))
-
-            .. image:: images/sequenceDiagrams/1_2.png
-
-        """
-        self.libOpcUaLLM.grp_02_tc_02()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp2_TC3(self) -> None:
-        """
-        Verify External Client session connections with "Static AC Configuration" mode and AC OPC UA = 150 for \
-        different Max Server Settings (Parameter-0x2472 (103))
-
-            .. image:: images/sequenceDiagrams/1_3.png
-
-        """
-        self.libOpcUaLLM.grp_02_tc_03()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp3_TC1(self) -> None:
-        """
-        Verify External Client session connections for different settings for AC OPC UA with mode set as \
-        "ALL AC to FAST Toolbox"  with Max Server Setting as 1 (Parameter-0x2472 (103)) and AC OPC UA set as 0 & 150
-
-            .. image:: images/sequenceDiagrams/2_1.png
-
-        """
-        self.libOpcUaLLM.grp_03_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp3_TC2(self) -> None:
-        """
-        Verify External Client session connections for different settings for AC OPC UA with mode set as \
-        "ALL AC to FAST Toolbox"  with Max Server Setting as 6 (Parameter-0x2472 (103)) and AC OPC UA set as 0 & 150
-
-            .. image:: images/sequenceDiagrams/2_2.png
-
-        """
-        self.libOpcUaLLM.grp_03_tc_02()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp4_TC1(self) -> None:
-        """
-        Verify sequential login of Client 7 after logout of client 6 with Max Server Setting 6 (Parameter-0x2472 \
-        (103)) and AC to OPC UA 150
-
-            .. image:: images/sequenceDiagrams/3_1.png
-
-        """
-        self.libOpcUaLLM.grp_04_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp5_TC1(self) -> None:
-        """
-        Verify Connection of One or More then External Client with mode set as "Static AC Configuration"  with Max \
-        Server Setting 6 ( Parameter-0x2472 (103)) and Total AC is  500 , credit assigned to FAST toolbox 500 and \
-         credit assigner to OPC UA 150
-
-            .. image:: images/sequenceDiagrams/4_1.png
-
-        """
-        self.libOpcUaLLM.grp_05_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp6_TC1(self) -> None:
-        """
-        Verify updatation of Application credit in Diagnosis License Manager without connection of Third party client \
-        with assigned Credit being set as different values (0, 100 & 150)
-
-        """
-        self.libOpcUaLLM.grp_06_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp7_TC1(self) -> None:
-        """
-        TC4.1 Verify connection of Multiple PLC open client to OPC UA server when required Application credit are not
-        available on SD card
-
-        """
-        self.libOpcUaLLM.grp_07_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp7_TC2(self) -> None:
-        """
-        TC4.2 Verify connection of Multiple PLC Open client to OPC UA server when required Application credit are
-        available on SD card
-
-        """
-        self.libOpcUaLLM.grp_07_tc_02()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp7_TC3(self) -> None:
-        """
-        TC 4.3 Verify disconnecting one of the six already connected OPC UA server session, with PLC open client and
-        connecting a new OPC UA server session
-
-        """
-        self.libOpcUaLLM.grp_07_tc_03()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp8_TC1(self) -> None:
-        """
-        TC4.4 Verify reading the PLC Designer variable PubSub data using the same c5xx controller as publisher and\
-        subscriber fot AC OPC UA = 150 credits
-
-        """
-        self.libOpcUaLLM.grp_08_tc_01()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp8_TC2(self) -> None:
-        """
-        TC4.5 Verify reading the PLC Designer variable PubSub data using the same c5xx controller as publisher and\
-        subscriber for AC OPC UA =0 credits
-
-        """
-        self.libOpcUaLLM.grp_08_tc_02()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp8_TC3(self) -> None:
-        """
-        TC4.6 Verify reading the PLC Designer variable PubSub data using the same c5xx controller as publisher and\
-        subscriber with mode set as "ALL AC to FAST Toolbox" .
-
-        """
-        self.libOpcUaLLM.grp_08_tc_03()
-
-    #-------------------------------------------------------------------------------------------------------------------
-    def tc_Grp9_TC1(self) -> None:
-        """
-        TC4.7 Verify External Client session connections with "Static AC Configuration" mode and AC OPC UA = 100 with\
-        Parameter 0x247B PUB Sub --Enabled and PUB Sub configuration not downloaded
-
-        """
-        self.libOpcUaLLM.grp_09_tc_01()
+        self.libPLCOpenClientFB.executeGroup5()
 
 
 #-----------------------------------------------------------------------------------------------------------------------
@@ -332,16 +226,5 @@ class Test_OpcUa_LLM(FwTestCase):
 # Note: The following code is executed if you start this file directly!
 if __name__ == "__main__":
     logger = clsLogger()
-    xlsReaderObj = ConfigExlParser(configFile = constants.CONFIG_FILE_PATH, logger = logger)
-    testEnvData = xlsReaderObj.getTestEnvData
-    ValidateInterpreter(testEnvData = testEnvData)
-
-    # Checking if test is running in admin mode or not
-    if not isEclipseRunningAsAdmin():
-        sys.exit()
-
-    # Checking if edge driver is installed in current file path
-    if not SeleniumLib.edgeDriverValidation():
-        sys.exit()
-
+    xlsReaderObj = ConfigOpenClientFB(configFile = constants.CONFIG_FILE_FB_PATH, logger = logger)
     TestBench.main(testFileName = __file__)

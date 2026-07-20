@@ -1,0 +1,90 @@
+# -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_all
+import sys ; sys.setrecursionlimit(sys.getrecursionlimit() * 5)
+
+EXCLUDES = [
+    "*.py", "*.log",
+    "*.pyc", "*.pyo",
+    "__pycache__/*", "*.pyi"
+]
+
+datas = []
+
+# resources/icons  ->  client/resources/icons
+datas += Tree(
+    "client/resources/icons",
+    prefix="client/resources/icons",
+    excludes=EXCLUDES
+)
+
+# resources/styles -> client/resources/styles
+datas += Tree(
+    "client/resources/styles",
+    prefix="client/resources/styles",
+    excludes=EXCLUDES
+)
+
+# model/resource/devData -> client/model/resource/devData
+datas += Tree(
+    "client/model/resource/devData",
+    prefix="client/model/resource/devData",
+    excludes=EXCLUDES
+)
+
+# model/resource/devData -> client/model/resource/devData
+datas += Tree(
+    "client/model/user",
+    prefix="client/model/user",
+    excludes=EXCLUDES
+)
+
+binaries = []
+hiddenimports = []
+tmp_ret = collect_all('PyQt6')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('pytef')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+
+
+a = Analysis(
+    ['client\\main.py'],
+    pathex=['C:\\Workspace-Pytef-V02.01-modular\\pytef'],
+    binaries=binaries,
+    datas=datas,
+    hiddenimports=hiddenimports,
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    noarchive=False,
+    optimize=0,
+)
+pyz = PYZ(a.pure)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    [],
+    exclude_binaries=True,
+    name='ServiceTool',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=True,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+    icon=['client\\resources\\icons\\service_tool.ico'],
+)
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='ServiceTool',
+)
